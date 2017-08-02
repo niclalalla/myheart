@@ -10,9 +10,3 @@
     <p>(1)在_User表中新建字段userPic(String),nickname(String)</p>
     <p>(2)新建Diary表，新建字段title(String),publisher(Pointer)<关联_User表>,pic(File),likeNum(Number),is_hide(String),content(String),commentNum(Number),liker(Array)</p>
     <p>(3)新建Comments表，新建字段publisher(Pointer)<关联_User表>,olderUserName(String),olderComment(Pointer)<关联Comments表>,mood(Pointer)<关联Diary表>,content(String)</p>
-
-
-
-
-
-如有疑问或建议，请加Q群118541934或联系工作人员644317554
